@@ -3504,7 +3504,7 @@
 		..()
 		reagents.add_reagent(/datum/reagent/nutriment/protein, 3)
 		reagents.add_reagent(/datum/reagent/toxin/carpotoxin, 2)
-		reagents.add_reagent(/datum/reagent/nutriment, 5)
+		reagents.add_reagent(/datum/reagent/nutriment, 6)
 
 /obj/item/weapon/reagent_containers/food/snacks/slice/sushi
 	name = "Sushi's slice"
@@ -3849,6 +3849,17 @@ obj/item/weapon/reagent_containers/food/snacks/risotto
 	filled = TRUE
 
 
+obj/item/weapon/reagent_containers/food/snacks/pickle
+	name = "Pickle"
+	desc = "Eat only with vodka."
+	icon_state = "pickle"
+	center_of_mass = "x=15;y=15"
+
+	New()
+		..()
+		reagents.add_reagent(/datum/reagent/nutriment, 3)
+		reagents.add_reagent(/datum/reagent/sodiumchloride, 2)
+		bitesize = 4
 
 
 

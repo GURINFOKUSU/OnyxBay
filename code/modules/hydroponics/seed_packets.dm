@@ -281,3 +281,7 @@ var/global/list/plant_seed_sprites = list()
 
 /obj/item/seeds/cannabisseed
 	seed_type = "cannabis"
+
+/obj/item/seeds/cucumber
+	seed_type = "cucumber"
+

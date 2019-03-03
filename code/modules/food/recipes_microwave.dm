@@ -1069,7 +1069,12 @@ I said no!
 	result = /obj/item/weapon/reagent_containers/food/snacks/sliceable/salami
 
 /datum/recipe/sushi
-	items = list(/obj/item/weapon/reagent_containers/food/snacks/tofu, /obj/item/weapon/reagent_containers/food/snacks/boiledrice, /obj/item/weapon/reagent_containers/food/snacks/carpmeat)
+	items = list(
+	/obj/item/weapon/reagent_containers/food/snacks/tofu,
+	 /obj/item/weapon/reagent_containers/food/snacks/boiledrice,
+	  /obj/item/weapon/reagent_containers/food/snacks/carpmeat
+	  )
+	fruit = list("cucumber" = 1)
 	result = /obj/item/weapon/reagent_containers/food/snacks/sliceable/sushi
 
 /datum/recipe/fruitcup
@@ -1212,7 +1217,13 @@ I said no!
 	result = /obj/item/weapon/reagent_containers/food/snacks/sliceable/choccherrycake
 
 
-
+/datum/recipe/pickle
+	fruit = list("cucumber" = 1)
+	reagents = list(
+	/datum/reagent/water = 10,
+	/datum/reagent/sodiumchloride = 5
+	)
+	result = /obj/item/weapon/reagent_containers/food/snacks/pickle
 
 
 
